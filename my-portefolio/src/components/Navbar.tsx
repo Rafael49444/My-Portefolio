@@ -1,12 +1,10 @@
 import React from "react";
-import "../index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export function Navbar() {
       return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <nav className="navbar navbar-expand-lg navbar-light fixed-top" >
                 <div className="container">
-                    {/* Logo Button */}
                     <h3>Rafael M.</h3>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">

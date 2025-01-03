@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+img[alt="me"] {
+  max-width: 25%; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%;
+  padding: 10px;
+  position: relative;
+  top: -80px;
+}
+
+#about {
+  text-align: center; /* Center align the content */
+  padding-top: 190px;
+  padding-bottom: 100px;
+  margin-top: 80px;
+  border-radius: 10px; /* Rounded corners */
+  background-image: url('../public/bridge.jpg'); /* Path to your background image */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+}
+
+#about .text-container {
+  width: 80%; /* Adjust the width as needed */
+  background-color: rgba(255, 255, 255, 0.8); /* Whitish background with transparency */
+  border-radius: 10px; /* Rounded corners */
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: relative;
+}
+
+#about .social-container {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8); /* Whitish background with transparency */
+  padding: 10px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: relative;
+  top: 20px;
+}
+
+#about .social-container img {
+  max-width: 30px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 4px; /* Add some spacing between the icons */
+  transition: transform 0.3s ease;
+}
+
+#about .social-container img:hover {
+  transform: scale(1.2); /* Scale up the image on hover */
+}
+
+.footer {
+  background-color: #414856;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer img {
+  max-width: 1%;
+}
+
