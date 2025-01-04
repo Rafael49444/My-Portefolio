@@ -33,21 +33,10 @@ function App() {
           </a>
         </div>
       </div>
+      <br></br>
       <Projects />
+      <br></br>
       <Skills />
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
       <footer class="footer">
         <img src="copyright.png" alt="Copyright" /> <em>2025 - Rafael Martins</em> 
       </footer>

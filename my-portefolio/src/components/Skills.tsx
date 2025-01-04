@@ -1,57 +1,145 @@
-import React from 'react';
-import '../index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../App.css";
 
 export function Skills() {
-    return(
-        <div className="skills">
-            <h1>Skills</h1>
+  return (
+    <div className="container" id="skills">
+      <h1 className="skill-title">Skills</h1>
+      <div className="row">
+        <div className="col-md-6">
+          <div className="skills-group">
+            <h3 className="skill-title">
+              <b>Front-End</b>
+            </h3>
             <div className="row">
-                <div className="col-md-6">
-                    <h2>Front-End</h2>
-                    <ul>
-                        <img src="icons/HTML5.svg" ></img>HTML
-                        <img src="icons/CSS3.svg" ></img>CSS
-                        <img src="icons/JavaScript.svg" ></img>JavaScript   
-                        <img src="icons/TypeScript.svg" ></img>TypeScript
-                        <img src="icons/React.svg" ></img>React
-                        <img src="icons/Vue.Js.svg" ></img>VueJs
-                        <img src="icons/Bootstrap.svg" ></img>Bootstrap
-                    </ul>
-                </div>
-                <div className="col-md-6">
-                    <h2>Back-End</h2>
-                    <ul>
-                        <img src="icons/Node.js.svg" ></img>Node.js
-                        <img src="icons/Express.svg" ></img>Express
-                        <img src="icons/spring.svg" ></img>Spring Boot
-                        <img src="icons/Java.svg" ></img>Java
-                        <img src="icons/Python.svg" ></img>Python
-                        <img src="icons/Kotlin.svg" ></img>Kotlin
-                        <img src="icons/Android.svg" ></img>Android
-                    </ul>
-                </div>
-                <div className="col-md-6">
-                    <h2><b>Database</b></h2>
-                    <ul>
-                        <img src="icons/PostgresSQL.svg" ></img>PostgreSQL
-                        <img src="icons/MongoDB.svg" ></img>MongoDB
-                        <img src="icons/firebase.svg" ></img>Firebase
-                        <img src="icons/Elastic Search.svg" ></img>ElasticSearch
-                    </ul>
-                </div>
-                <div className="col-md-6">
-                    <h2><b>Tools</b></h2>
-                    <ul>
-                        <img src="icons/git.png" ></img>Git
-                        <img src ="icons/github.png"></img>GitHub
-                        <img src ="icons/visual-studio.png"></img>VS Code
-                        <img src="icons/IntelliJ_IDEA_Icon.svg"></img>IntelliJ
-                        <img src="icons/Postman.svg"></img>Postman
-                        <img src="icons/docker.png"></img>Docker
-                    </ul>
-                </div>
+              <div className="col-4">
+                <img src="icons/HTML5.svg" alt="HTML" />
+                <p>HTML</p>
+              </div>
+              <div className="col-4">
+                <img src="icons/CSS3.svg" alt="CSS" />
+                <p>CSS</p>
+              </div>
+              <div className="col-4">
+                <img src="icons/JavaScript.svg" alt="JavaScript" />
+                <p>JavaScript</p>
+              </div>
+              <div className="col-3">
+                <img src="icons/TypeScript.svg" alt="TypeScript" />
+                <p>TypeScript</p>
+              </div>
+              <div className="col-3">
+                <img src="icons/React.svg" alt="React" />
+                <p>React</p>
+              </div>
+              <div className="col-3">
+                <img src="icons/Vue.Js.svg" alt="VueJs" />
+                <p>VueJs</p>
+              </div>
+              <div className="col-3">
+                <img src="icons/Bootstrap.svg" alt="Bootstrap" />
+                <p>Bootstrap</p>
+              </div>
             </div>
+          </div>
         </div>
-    )
+        <div className="col-md-6">
+          <div className="skills-group">
+            <h3 className="skill-title">
+                <b>Back-End</b>
+            </h3>
+            <div className="row">
+              <div className="col-4">
+                <img src="icons/Node.js.svg" alt="Node.js" />
+                <p>Node.js</p>
+              </div>
+              <div className="col-4">
+                <img src="icons/Express.svg" alt="Express" />
+                <p>Express</p>
+              </div>
+              <div className="col-4">
+                <img src="icons/spring.svg" alt="Spring Boot" />
+                <p>Spring Boot</p>
+              </div>
+              <div className="col-3">
+                <img src="icons/Java.svg" alt="Java" />
+                <p>Java</p>
+              </div>
+              <div className="col-3">
+                <img src="icons/Python.svg" alt="Python" />
+                <p>Python</p>
+              </div>
+              <div className="col-3">
+                <img src="icons/Kotlin.svg" alt="Kotlin" />
+                <p>Kotlin</p>
+              </div>
+              <div className="col-3">
+                <img src="icons/Android.svg" alt="Android" />
+                <p>Android</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="skills-group">
+            <h3 className="skill-title">
+              <b>Database</b>
+            </h3>
+            <div className="row">
+              <div className="col-3">
+                <img src="icons/PostgresSQL.svg" alt="PostgreSQL" />
+                <p>PostgreSQL</p>
+              </div>
+              <div className="col-3">
+                <img src="icons/MongoDB.svg" alt="MongoDB" />
+                <p>MongoDB</p>
+              </div>
+              <div className="col-3">
+                <img src="icons/firebase.svg" alt="Firebase" />
+                <p>Firebase</p>
+              </div>
+              <div className="col-3">
+                <img src="icons/Elastic Search.svg" alt="ElasticSearch" />
+                <p>ElasticSearch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6">
+          <div className="skills-group">
+            <h3 className="skill-title">
+              <b>Tools</b>
+            </h3>
+            <div className="row">
+              <div className="col-2">
+                <img src="icons/git.png"></img>
+                <p>Git</p>
+              </div>
+              <div className="col-2">
+                <img src="icons/github.png"></img>
+                <p>GitHub</p>
+              </div>
+              <div className="col-2">
+                <img src="icons/VS Code.svg"></img>
+                <p>VS Code</p>
+              </div>
+              <div className="col-2">
+                <img src="icons/IntelliJ_IDEA_Icon.svg"></img>
+                <p>IntelliJ</p>
+              </div>
+              <div className="col-2">
+                <img src="icons/Postman.svg"></img>
+                <p>Postman</p>
+              </div>
+              <div className="col-2">
+                <img src="icons/docker.png"></img>
+                <p>Docker</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }

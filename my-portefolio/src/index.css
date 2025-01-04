@@ -29,8 +29,38 @@ img {
   justify-content: center;
 }
 
+.projects img {
+  height: auto;
+  margin-bottom: 20px;
+}
 
-.skills img {
+.project {
+  border: 1px solid #ee8f7a;
+  border-radius: 10px;
+  background-color: #f9f9f900;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+}
+
+.skills-group img {
   max-width: 40px; /* Set max-width for all images in Skills component */
   height: auto; /* Maintain aspect ratio */
+}
+
+.skills-group {
+  border: 1px solid #ddd; /* Add a border to delineate the group */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  padding: 20px; /* Add padding inside the group */
+  margin-bottom: 20px; /* Add margin between groups */
+}
+
+.skill-title {
+  text-align: center; /* Center align the title */
+  padding-bottom: 5px;
+}
+
+.skill-title {
+  padding-bottom: 15px;
 }
