@@ -18,7 +18,8 @@ img {
 }
 
 .navbar {
-  background-color: #d9826f ;
+  color: white;
+  background-color: #1C1854 ;
   text-align: center;
 }
 
@@ -32,10 +33,11 @@ img {
 .projects img {
   height: auto;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .project {
-  border: 1px solid #ee8f7a;
+  border: 1px solid #1C1854;
   border-radius: 10px;
   background-color: #f9f9f900;
   padding: 20px;

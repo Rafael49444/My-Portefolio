@@ -27,6 +27,7 @@ export function Projects() {
                     <p>
                         The game session management application is a web application that allows users to create and join game sessions.
                         Uses a login system through session storage.
+                        This app was also deployed using Render.
                     </p>
                 </div>
                 <div className="col-4 project">
